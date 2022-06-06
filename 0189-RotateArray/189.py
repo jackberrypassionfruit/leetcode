@@ -11,6 +11,8 @@ nums = [-1,-100,3,99]
 
 # Clever way with math
 # Not fast enough apparently
+# k makes it iteration len(nums) times
+# probably should make it swap with an index k over instead
 def rotate(nums, k):
     for j in range(k):
         last_change = nums[1] - nums[0]
