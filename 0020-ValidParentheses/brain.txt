@@ -1,0 +1,7 @@
+when checking new bracket characters:
+  1. if new one finishes the last one in queue
+    - pop off queue
+  2. if new one finishes NOT last one in queue
+    - FAIL
+  3. if new one opens another
+    - push it on queue
